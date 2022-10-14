@@ -1,8 +1,8 @@
 #  Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
 
 input = input('Введите число: ')
-count=0
+count = 0
 for i in input:
-    if i!='.':
-        count+=int(i)
+    if i != '.':
+        count += int(i)
 print(count)
