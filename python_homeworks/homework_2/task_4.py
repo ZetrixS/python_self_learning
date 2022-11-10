@@ -14,15 +14,15 @@ for i in range(input_1*2+1):
     count += 1
 print(list)
 
-l=0
-k=0
-list_count=1
+l = 0
+k = 0
+list_count = 1
 
-if file_list[l]==k:
-    list_count*=list[k]
-    l+=1
-    k+=1
+if file_list[l] == k:
+    list_count *= list[k]
+    l += 1
+    k += 1
 else:
-    l+=1
-    k+=1
+    l += 1
+    k += 1
 print(list_count)
