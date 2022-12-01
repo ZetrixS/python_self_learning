@@ -2,4 +2,4 @@
 # для вывода сообщения с количеством людей, приглашенных на обед
 
 guests = ['Mama', 'Ivan', 'Leonid']
-print(guests.len())
+print(len(guests))
